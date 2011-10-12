@@ -206,7 +206,7 @@ appdirs=""
 
 # Define is_cross_compiler to save on calls to 'test'.
 is_cross_compiler=
-if test x"${host}" = x"${target}" ; then
+if test x"${host}" = x"${build}" ; then
   is_cross_compiler=no
 else
   is_cross_compiler=yes
